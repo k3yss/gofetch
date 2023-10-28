@@ -83,12 +83,12 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	
 	distroString := string(distro)
 	CollonIndex := strings.Index(distroString, ":")
 	distroName := strings.TrimSpace(distroString[CollonIndex+1:])
 
 	// RAM usage
-
 	mem := ReadMemoryStats()
 
 	totalMem := mem.MemTotal / 1024
