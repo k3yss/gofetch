@@ -2,9 +2,12 @@
 
 A system fetch utility written in Golang.
 
-![image](https://github.com/k3yss/gofetch/assets/96657880/38336e3a-251f-45e5-b5a2-56fbc4569d27)
+![image](screenshot.png)
 
-# Installation
+### Prerequisites
+* Golang (obviously)
+
+### Installation
 
 * Clone the repo
 ````bash
@@ -22,7 +25,7 @@ $ cp gofetch /usr/local/bin/gofetch
 ````bash
 $ gofetch
 ````
-# Docker
+### Docker
 > Additionally you can use docker to run gofetch without installing any external dependencies.
 ````bash
 $ docker build -t gofetch .
